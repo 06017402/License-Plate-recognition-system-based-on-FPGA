@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 11:50:51 2020
+# Process ID: 20144
+# Current directory: C:/Users/sy/Desktop/Digital-Recognition-master/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2768 C:\Users\sy\Desktop\Digital-Recognition-master\project\spartan_cam.xpr
+# Log file: C:/Users/sy/Desktop/Digital-Recognition-master/project/vivado.log
+# Journal file: C:/Users/sy/Desktop/Digital-Recognition-master/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sy/Desktop/Digital-Recognition-master/project/spartan_cam.xpr
+update_compile_order -fileset sources_1

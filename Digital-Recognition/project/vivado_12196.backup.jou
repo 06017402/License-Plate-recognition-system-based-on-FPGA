@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 30 17:10:40 2020
+# Process ID: 12196
+# Current directory: C:/Users/sy/Desktop/Digital-Recognition-master/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7280 C:\Users\sy\Desktop\Digital-Recognition-master\project\spartan_cam.xpr
+# Log file: C:/Users/sy/Desktop/Digital-Recognition-master/project/vivado.log
+# Journal file: C:/Users/sy/Desktop/Digital-Recognition-master/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sy/Desktop/Digital-Recognition-master/project/spartan_cam.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/sy/Desktop/Digital-Recognition-master/project/spartan_cam.srcs/sources_1/bd/system/system.bd}
+ipx::open_ipxact_file {C:\users\dell\desktop\color_detect\spartan_cam\component.xml}
+ipx::unload_core c:/users/dell/desktop/color_detect/spartan_cam/component.xml
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
